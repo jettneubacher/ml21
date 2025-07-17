@@ -30,6 +30,12 @@ def handle_bot_request(bot_function):
     return jsonify({"action": action})
 
 
+# PING PONG for server wake-up
+@app.route('/ping', methods=['GET'])
+def ping():
+    return jsonify({"message": "pong"})
+
+
 # BOT 1
 # hit on 16's regardless of what dealer is showing
 # does not consider soft scores
