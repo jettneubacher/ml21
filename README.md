@@ -1,9 +1,9 @@
 ### Machine Learning 21 backend
 \
 **app.py**: endpoints - receives HTTP requests with jsonified bot hand, dealer upcard, and selected bot\
-  Also contains logic for bot1 (rule-based bot)
+  Also contains logic for bot1 (rule-based bot)\
 \
-**utils.py**: contains helper function for preprocessing json packages from frontend
+**utils.py**: contains helper function for preprocessing json packages from frontend\
 \
 **bot2.py**: contains logic for bot2 (Imitation ML)\
 **bot3.py**: contains logic for bot3 (Learned classifier)\
